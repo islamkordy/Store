@@ -11,124 +11,140 @@ i:{70c0ee9c-20b2-497f-9f95-c7412a7918d7}:API
 ++Store.API
 i:{ab62c778-3e8c-4403-b6b2-c97e996ecfd9}:Store.API
 ++Connected Services 
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:>687
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:>707
 ++Dependencies
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:>686
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>422
-i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:>306
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>305
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:>706
+i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:>420
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>421
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>422
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:>423
 ++Properties
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\properties\
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\properties\
 ++Controllers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\controllers\
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\controllers\
 ++CategoryController.cs
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\controllers\categorycontroller.cs
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\controllers\categorycontroller.cs
+++WeatherForecastController.cs
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\controllers\weatherforecastcontroller.cs
 ++appsettings.json
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\appsettings.json
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\appsettings.json
 ++Program.cs
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\program.cs
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\program.cs
 ++Startup.cs
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\startup.cs
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\startup.cs
+++WeatherForecast.cs
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\weatherforecast.cs
 ++No service dependencies discovered
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:>688
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:>708
 ++Analyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:analyzers
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:analyzers
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:analyzers
 i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:analyzers
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:analyzers
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:analyzers
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:analyzers
 ++Frameworks
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:frameworks
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:frameworks
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:frameworks
 i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:frameworks
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:frameworks
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:frameworks
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:frameworks
 ++Packages
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:packages
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:packages
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:packages
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:packages
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:packages
 ++Projects
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:projects
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:projects
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:projects
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:projects
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:projects
 ++launchSettings.json
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\properties\launchsettings.json
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\properties\launchsettings.json
 ++appsettings.Development.json
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\appsettings.development.json
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\appsettings.development.json
 ++Microsoft.AspNetCore.Analyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
 ++Microsoft.AspNetCore.App.Analyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
 ++Microsoft.AspNetCore.App.CodeFixes
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
 ++Microsoft.AspNetCore.Components.Analyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
 ++Microsoft.AspNetCore.Mvc.Analyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
 ++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
 ++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
 ++Microsoft.CodeAnalysis.NetAnalyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
 ++Microsoft.EntityFrameworkCore.Analyzers
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\users\lenovo\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\users\lenovo\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.4\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:c:\users\lenovo\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.3\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
 ++Microsoft.Extensions.Logging.Generators
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:c:\users\lenovo\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
 ++Microsoft.NET.Sdk.Razor.SourceGenerators
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\sdk\6.0.101\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
 ++System.Text.Json.SourceGeneration
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.1\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
 ++Microsoft.AspNetCore.App
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\microsoft.aspnetcore.app
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\microsoft.aspnetcore.app
 ++Microsoft.NETCore.App
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.api\microsoft.netcore.app
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\microsoft.netcore.app
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.api\microsoft.netcore.app
 i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\microsoft.netcore.app
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\microsoft.netcore.app
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\microsoft.netcore.app
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:d:\projects\store\infrastructure\microsoft.netcore.app
-++MediatR (10.0.1)
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:>743
-++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:>745
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>730
 ++Microsoft.EntityFrameworkCore.Tools (6.0.4)
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:>744
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:>730
+++Swashbuckle.AspNetCore (5.6.3)
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:>729
 ++Infrastructure
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\infrastructure\infrastructure.csproj
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\infrastructure\infrastructure.csproj
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\infrastructure\
 i:{70c0ee9c-20b2-497f-9f95-c7412a7918d7}:Infrastructure
 i:{6a736d6c-6c4c-4477-a125-ac24f5007d23}:Infrastructure
 ++Persistence
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\persistence\persistence.csproj
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\persistence\persistence.csproj
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\persistence\
 i:{6a736d6c-6c4c-4477-a125-ac24f5007d23}:Persistence
 ++Store.Application
-i:{319b2819-62f3-4892-9b6e-59c896f7106b}:d:\projects\store\store.application\store.application.csproj
+i:{705a7516-25ce-47e2-b1a9-3ba15d0bdf8c}:d:\projects\store\store.application\store.application.csproj
 i:{c8c5f0d2-7d12-44aa-8a70-f5520ba247a6}:Store.Application
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\store.application\bin\debug\net6.0\store.application.dll
-i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:d:\projects\store\store.application\bin\debug\net6.0\store.application.dll
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\store.application\store.application.csproj
+i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:d:\projects\store\store.application\store.application.csproj
 ++Core
 i:{70c0ee9c-20b2-497f-9f95-c7412a7918d7}:Core
+++Store.Domain
+i:{c8c5f0d2-7d12-44aa-8a70-f5520ba247a6}:Store.Domain
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\domain\store.domain.csproj
+++Common
+i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\common\
+++AuditableEntity.cs
+i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\common\auditableentity.cs
+++Entities
+i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\entities\
+++Category.cs
+i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\entities\category.cs
+++Product.cs
+i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\entities\product.cs
 ++Contract
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\
+++IEmailService.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\infrastructure\iemailservice.cs
 ++Exceptions
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\
 ++Features
@@ -161,67 +177,62 @@ i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\fea
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorieslist\getcategorieslistqueryhandler.cs
 ++GetCategoryById
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\
-++CategoryVM.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\categoryvm.cs
-++GetCategoryByIdQuery.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\getcategorybyidquery.cs
-++GetCategoryByIdQueryHandler.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\getcategorybyidqueryhandler.cs
 ++Products
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\products\
 ++Models
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\models\
 ++Profiles
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\profiles\
-++MappingProfile.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\profiles\mappingprofile.cs
 ++Responses
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\responses\
 ++ApplicationServiceRegistration.cs
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\applicationserviceregistration.cs
-++BadRequestException.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\badrequestexception.cs
-++NotFoundException.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\notfoundexception.cs
-++ValidationException.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\validationexception.cs
-++Email.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\models\email.cs
-++EmailSettings.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\models\emailsettings.cs
-++BaseResponse.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\responses\baseresponse.cs
-++AutoMapper (11.0.1)
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>729
-++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>727
-++FluentValidation (10.4.0)
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>728
-++FluentValidation.DependencyInjectionExtensions (10.4.0)
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>726
-++Store.Domain
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\domain\bin\debug\net6.0\store.domain.dll
-i:{c8c5f0d2-7d12-44aa-8a70-f5520ba247a6}:Store.Domain
-++IEmailService.cs
-i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\infrastructure\iemailservice.cs
 ++IAsyncRepository.cs
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\persistence\iasyncrepository.cs
 ++ICategoryRepository.cs
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\persistence\icategoryrepository.cs
 ++IProductRepository.cs
 i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\contract\persistence\iproductrepository.cs
-++Common
-i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\common\
-++Entities
-i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\entities\
-++AuditableEntity.cs
-i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\common\auditableentity.cs
-++Category.cs
-i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\entities\category.cs
-++Product.cs
-i:{1dd211dc-4a01-4053-b445-9238d8d17fa8}:d:\projects\store\domain\entities\product.cs
+++BadRequestException.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\badrequestexception.cs
+++NotFoundException.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\notfoundexception.cs
+++ValidationException.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\exceptions\validationexception.cs
+++CategoryVM.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\categoryvm.cs
+++GetCategoryByIdQuery.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\getcategorybyidquery.cs
+++GetCategoryByIdQueryHandler.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\features\categories\queries\getcategorybyid\getcategorybyidqueryhandler.cs
+++Email.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\models\email.cs
+++EmailSettings.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\models\emailsettings.cs
+++MappingProfile.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\profiles\mappingprofile.cs
+++BaseResponse.cs
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:d:\projects\store\store.application\responses\baseresponse.cs
+++AutoMapper (11.0.1)
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>749
+++AutoMapper.Extensions.Microsoft.DependencyInjection (11.0.0)
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>747
+++FluentValidation (10.4.0)
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>748
+++FluentValidation.DependencyInjectionExtensions (10.4.0)
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>746
+++MediatR (10.0.1)
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>789
+++MediatR.Extensions.Microsoft.DependencyInjection (10.0.1)
+i:{d1274cea-afb3-4595-89cf-94c69b6a465b}:>750
 ++Migrations
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\
+++20220417085704_InitialMigration.cs
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\20220417085704_initialmigration.cs
+++20220417090849_updateCategories.cs
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\20220417090849_updatecategories.cs
+++StoreDbContextModelSnapshot.cs
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\storedbcontextmodelsnapshot.cs
 ++Repositories
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\repositories\
 ++BaseRepository.cs
@@ -234,17 +245,13 @@ i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\repositor
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\persistenceserviceregistration.cs
 ++StoreDbContext.cs
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\storedbcontext.cs
-++20220417085704_InitialMigration.cs
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\20220417085704_initialmigration.cs
-++20220417090849_updateCategories.cs
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\20220417090849_updatecategories.cs
-++StoreDbContextModelSnapshot.cs
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\storedbcontextmodelsnapshot.cs
-++Microsoft.EntityFrameworkCore.SqlServer (6.0.3)
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>704
+++Microsoft.EntityFrameworkCore.Design (6.0.5)
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>1002
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.5)
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>1093
 ++Microsoft.Extensions.Options.ConfigurationExtensions (6.0.0)
-i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>705
-i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:>716
+i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:>716
+i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:>760
 ++20220417085704_InitialMigration.Designer.cs
 i:{fdd5a91f-443a-45d9-aa95-0bdb67da57e8}:d:\projects\store\persistence\migrations\20220417085704_initialmigration.designer.cs
 ++20220417090849_updateCategories.Designer.cs
@@ -256,4 +263,4 @@ i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:d:\projects\store\infrastructure\infras
 ++EmailService.cs
 i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:d:\projects\store\infrastructure\mail\emailservice.cs
 ++SendGrid (9.27.0)
-i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:>715
+i:{725d00d6-6c32-4852-bcc6-f9f1e9d530be}:>759

@@ -1,3 +1,4 @@
+using Infrastructure;
 using MediatR;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -7,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Persistence;
+using Store.Application;
 using System.Reflection;
 
 namespace Store.API
@@ -24,9 +26,10 @@ namespace Store.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            //services.AddTransient<IMediator, Mediator>();
-            services.AddMediatR(typeof(Startup).GetTypeInfo().Assembly);
-
+            services.AddMediatR(typeof(Startup));
+            services.AddApplicationService();
+            services.AddPersistenceServices(_configuration);
+            services.AddInfrastrucureServices(_configuration);
             services.AddControllers();
             services.AddDbContext<StoreDbContext>(options =>
                options.UseSqlServer(_configuration.GetConnectionString("StoreDbConnection")));
