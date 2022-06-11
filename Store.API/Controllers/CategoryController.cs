@@ -52,6 +52,7 @@ namespace Store.API.Controllers
         }
 
         [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> DeleteCategory([FromBody] DeleteCategoryCommand deleteCategoryCommand)
         {
             var response = await mediator.Send(new DeleteCategoryCommand());
