@@ -9,7 +9,6 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Persistence;
 using Store.Application;
-using System.Reflection;
 
 namespace Store.API
 {

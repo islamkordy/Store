@@ -52,7 +52,7 @@ public class StoreDbContext : DbContext
                     entry.Entity.CreatedDate = DateTime.Now;
                     break;
                 case EntityState.Modified:
-                    entry.Entity.LastUpdatedDate = DateTime.Now;
+                    entry.Entity.UpdatedDate = DateTime.Now;
                     break;
             }
         }

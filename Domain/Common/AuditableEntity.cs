@@ -1,12 +1,16 @@
-﻿namespace Domain.Common;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Domain.Common;
 
 public class AuditableEntity
 {
-    public DateTime CreatedDate { get; set; } = DateTime.Now;
+    public DateTime CreatedDate { get; set; }
 
-    public string CreatedBy { get; set; } = "Default";
+    public DateTime? UpdatedDate { get; set; }
 
-    public DateTime LastUpdatedDate { get; set; } = DateTime.Now;
+    [MaxLength(255)]
+    public string CreatedBy { get; set; } = string.Empty;
 
-    public string LastUpdatedBy{ get; set; } = "Default";
+    [MaxLength(255)]
+    public string? UpdatedBy { get; set; }
 }

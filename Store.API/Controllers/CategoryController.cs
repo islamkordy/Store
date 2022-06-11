@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Store.Application.Features.Categories.Commands.CreateCategory;
+using Store.Application.Features.Categories.Commands.DeleteCategory;
 using Store.Application.Features.Categories.Queries;
 using System;
 using System.Collections.Generic;
@@ -33,23 +34,24 @@ namespace Store.API.Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<CategoryVM>> GetCategoryById(Guid Id)
         {
-            var dtos = await mediator.Send(new GetCategoryByIdQuery());
-
-            return Ok(dtos);
-        }
-
-        [HttpGet]
-        public async Task<ActionResult<CategoryVM>> Get()
-        {
-            var dtos = await mediator.Send(new GetCategoryByIdQuery());
+            var dtos = await mediator.Send(new GetCategoryByIdQuery() { Id = Id});
 
             return Ok(dtos);
         }
 
         [HttpPost("addCategory")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<CreateCategoryCommandResponse>> Create([FromBody] CreateCategoryCommand createCategoryCommand)
         {
             var response = await mediator.Send(createCategoryCommand);
+
+            return Ok(response);
+        }
+
+        [HttpDelete]
+        public async Task<ActionResult> DeleteCategory([FromBody] DeleteCategoryCommand deleteCategoryCommand)
+        {
+            var response = await mediator.Send(new DeleteCategoryCommand());
 
             return Ok(response);
         }
