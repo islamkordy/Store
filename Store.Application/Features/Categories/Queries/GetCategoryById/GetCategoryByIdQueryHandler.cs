@@ -2,6 +2,7 @@
 using Domain.Entities;
 using MediatR;
 using Store.Application.Contract.Persistence;
+using Store.Application.Exceptions;
 using Store.Application.Features.Categories.Queries;
 
 namespace Store.Application.Features.Categories.Commands;
@@ -20,6 +21,9 @@ public class GetCategoryByIdQueryHandler : IRequestHandler<GetCategoryByIdQuery,
     public async Task<CategoryVM> Handle(GetCategoryByIdQuery request, CancellationToken cancellationToken)
     {
         var category = await categoryrepository.GetByIdAsync(request.Id);
+
+        if(category is null)
+            throw new NotFoundException(nameof(category), request.Id);
 
         return mapper.Map<CategoryVM>(category);
     }

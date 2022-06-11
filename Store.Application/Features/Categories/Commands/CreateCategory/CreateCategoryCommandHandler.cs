@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using Domain.Entities;
 using MediatR;
+using Store.Application.Common;
 using Store.Application.Contract.Infrastructure;
 using Store.Application.Contract.Persistence;
 using Store.Application.Models;
@@ -22,18 +23,14 @@ public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryComman
 
     public async Task<CreateCategoryCommandResponse> Handle(CreateCategoryCommand request, CancellationToken cancellationToken)
     {
-        var validator = new CreateCategoryCommandValidator();
-
-        var validationResult =await validator.ValidateAsync(request);
-
-        if (validationResult.Errors.Count > 0)
-            throw new Exceptions.ValidationException(validationResult);
+        //if (validationResult.Errors.Count > 0)
+        //    throw new Exceptions.ValidationException(validationResult);
 
         var category = mapper.Map<Category>(request);
 
         category = await categoryRepository.AddAsync(category);
 
-        var email = new Email() { To = "islamkordy@gmail.com", Subject = "Store .Net Project", Body = "You just created a new Category" };
+        var email = new Email() { To = "islamkordy2@gmail.com", Subject = "Store .Net Project", Body = "You just created a new Category" };
 
         try
         {
@@ -41,7 +38,7 @@ public class CreateCategoryCommandHandler : IRequestHandler<CreateCategoryComman
         }
         catch (Exception ex)
         {
-            throw new Exception("Failed to send Enail");
+            throw new Exceptions.InternalServiceError(ex.Message);
         }
 
         return new CreateCategoryCommandResponse{ Success = true, Id = category.Id};
