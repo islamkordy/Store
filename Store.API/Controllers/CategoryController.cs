@@ -23,6 +23,7 @@ namespace Store.API.Controllers
 
         [HttpGet("getCategoriesList")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<List<CategoryListVM>>> GetCategoriesList()
         {
             var dtos = await mediator.Send(new GetCategoriesListQuery());
@@ -32,6 +33,7 @@ namespace Store.API.Controllers
 
         [HttpGet("getCategoryById")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
         public async Task<ActionResult<CategoryVM>> GetCategoryById(Guid Id)
         {
             var dtos = await mediator.Send(new GetCategoryByIdQuery() { Id = Id});
@@ -41,6 +43,7 @@ namespace Store.API.Controllers
 
         [HttpPost("addCategory")]
         [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
         public async Task<ActionResult<CreateCategoryCommandResponse>> Create([FromBody] CreateCategoryCommand createCategoryCommand)
         {
             var response = await mediator.Send(createCategoryCommand);
@@ -49,6 +52,7 @@ namespace Store.API.Controllers
         }
 
         [HttpDelete]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult> DeleteCategory([FromBody] DeleteCategoryCommand deleteCategoryCommand)
         {
             var response = await mediator.Send(new DeleteCategoryCommand());

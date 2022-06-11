@@ -8,6 +8,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using Persistence;
+using Store.API.Middleware;
 using Store.Application;
 
 namespace Store.API
@@ -47,6 +48,7 @@ namespace Store.API
                 app.UseSwagger();
                 app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Store.API v1"));
             }
+            app.UseCustomExceprionHandler();
 
             app.UseHttpsRedirection();
 

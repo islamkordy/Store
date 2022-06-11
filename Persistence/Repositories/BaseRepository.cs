@@ -1,5 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using Store.Application.Common;
 using Store.Application.Contract.Persistence;
+using Store.Application.Exceptions;
 
 namespace Persistence.Repositories;
 
@@ -15,7 +17,14 @@ public class BaseRepository<T> : IAsyncRepository<T> where T : class
     public async Task<T> AddAsync(T entity)
     {
         await dbContext.Set<T>().AddAsync(entity);
-        await dbContext.SaveChangesAsync();
+        try
+        {
+            await dbContext.SaveChangesAsync();
+        }
+        catch (Exception ex)
+        {
+            throw new InternalServiceError(ex.Message);
+        }
         return entity;
     }
 
