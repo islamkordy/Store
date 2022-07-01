@@ -1,6 +1,5 @@
 D:\Projects\Store\Infrastructure\bin\Debug\net6.0\Infrastructure.deps.json
 D:\Projects\Store\Infrastructure\bin\Debug\net6.0\Infrastructure.dll
-D:\Projects\Store\Infrastructure\bin\Debug\net6.0\ref\Infrastructure.dll
 D:\Projects\Store\Infrastructure\bin\Debug\net6.0\Infrastructure.pdb
 D:\Projects\Store\Infrastructure\bin\Debug\net6.0\Store.Application.dll
 D:\Projects\Store\Infrastructure\bin\Debug\net6.0\Store.Domain.dll
@@ -15,3 +14,4 @@ D:\Projects\Store\Infrastructure\obj\Debug\net6.0\Infrastructure.csproj.CopyComp
 D:\Projects\Store\Infrastructure\obj\Debug\net6.0\Infrastructure.dll
 D:\Projects\Store\Infrastructure\obj\Debug\net6.0\ref\Infrastructure.dll
 D:\Projects\Store\Infrastructure\obj\Debug\net6.0\Infrastructure.pdb
+D:\Projects\Store\Infrastructure\obj\Debug\net6.0\refint\Infrastructure.dll

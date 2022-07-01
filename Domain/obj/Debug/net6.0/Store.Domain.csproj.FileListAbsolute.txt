@@ -1,6 +1,5 @@
 D:\Projects\Store\Domain\bin\Debug\net6.0\Store.Domain.deps.json
 D:\Projects\Store\Domain\bin\Debug\net6.0\Store.Domain.dll
-D:\Projects\Store\Domain\bin\Debug\net6.0\ref\Store.Domain.dll
 D:\Projects\Store\Domain\bin\Debug\net6.0\Store.Domain.pdb
 D:\Projects\Store\Domain\obj\Debug\net6.0\Store.Domain.GeneratedMSBuildEditorConfig.editorconfig
 D:\Projects\Store\Domain\obj\Debug\net6.0\Store.Domain.AssemblyInfoInputs.cache
@@ -9,3 +8,5 @@ D:\Projects\Store\Domain\obj\Debug\net6.0\Store.Domain.csproj.CoreCompileInputs.
 D:\Projects\Store\Domain\obj\Debug\net6.0\Store.Domain.dll
 D:\Projects\Store\Domain\obj\Debug\net6.0\ref\Store.Domain.dll
 D:\Projects\Store\Domain\obj\Debug\net6.0\Store.Domain.pdb
+D:\Projects\Store\Domain\obj\Debug\net6.0\Store.Domain.csproj.AssemblyReference.cache
+D:\Projects\Store\Domain\obj\Debug\net6.0\refint\Store.Domain.dll
