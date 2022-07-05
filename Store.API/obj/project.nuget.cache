@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "eV4HZwudkedGavOd1/MxHrXI+eX1q3ChS+dzOAiBN/2ZItSk72VYGPo4pkOFJ9G3jilyPd3N4uzAR/2ls7erAA==",
+  "dgSpecHash": "HgRmwsQyPVwNmmsUdx+VT36keYxZ1rrVnrR80JVnoiNcxHD5DvvLnm7obCH8QxX/WaUtMyjeeKuzohMoS8hI2Q==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Store\\Store.API\\Store.API.csproj",
+  "projectFilePath": "D:\\Eslam\\Store\\Store.API\\Store.API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "bZCQBFnlFwHoQc4KkuKV6lLyDqRbdi9aYPkgv52FUj6TIrEnXAZdFLJ0RarpqDOJabltPIrcAgToD5rbovDtEw==",
+  "dgSpecHash": "K7d9f0kKRgMt9YDrC8+Ky7L7MjC/oin0rv6pLu/vmEKm3AgOFtN46dnKtOAyYFL7YHdg1ez0/zt0hpv7Y0cDuA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Store\\Domain\\Store.Domain.csproj",
+  "projectFilePath": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

@@ -2127,11 +2127,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Store\\Persistence\\Persistence.csproj",
+      "projectUniqueName": "D:\\Eslam\\Store\\Persistence\\Persistence.csproj",
       "projectName": "Persistence",
-      "projectPath": "D:\\Projects\\Store\\Persistence\\Persistence.csproj",
+      "projectPath": "D:\\Eslam\\Store\\Persistence\\Persistence.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Store\\Persistence\\obj\\",
+      "outputPath": "D:\\Eslam\\Store\\Persistence\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2148,8 +2148,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj": {
-              "projectPath": "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj"
+            "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj": {
+              "projectPath": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj"
             }
           }
         }
