@@ -3214,11 +3214,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Store\\Infrastructure\\Infrastructure.csproj",
+      "projectUniqueName": "D:\\Eslam\\Store\\Infrastructure\\Infrastructure.csproj",
       "projectName": "Infrastructure",
-      "projectPath": "D:\\Projects\\Store\\Infrastructure\\Infrastructure.csproj",
+      "projectPath": "D:\\Eslam\\Store\\Infrastructure\\Infrastructure.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Store\\Infrastructure\\obj\\",
+      "outputPath": "D:\\Eslam\\Store\\Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3235,8 +3235,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj": {
-              "projectPath": "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj"
+            "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj": {
+              "projectPath": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj"
             }
           }
         }
