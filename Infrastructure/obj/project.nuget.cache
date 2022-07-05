@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "siu5JnwHq1bj1LMVVc2Jk+kFH4czjtLRjYKP8M8/SVAnFLrxb+Od0KYHINPYioLPsHGwHXSkuZ54RiSz5AvHzg==",
+  "dgSpecHash": "gT2Mwe3vSqtqAMUk+hD3saIlsCO/+TNevlFDBT85AfnTfqiuL91XsDMPFgNlEY8K05hiO6e3KqAln9KDRPxUiA==",
   "success": true,
-  "projectFilePath": "D:\\Projects\\Store\\Infrastructure\\Infrastructure.csproj",
+  "projectFilePath": "D:\\Eslam\\Store\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper\\11.0.1\\automapper.11.0.1.nupkg.sha512",
     "C:\\Users\\lenovo\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\11.0.0\\automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",

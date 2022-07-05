@@ -5003,11 +5003,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Store\\Store.API\\Store.API.csproj",
+      "projectUniqueName": "D:\\Eslam\\Store\\Store.API\\Store.API.csproj",
       "projectName": "Store.API",
-      "projectPath": "D:\\Projects\\Store\\Store.API\\Store.API.csproj",
+      "projectPath": "D:\\Eslam\\Store\\Store.API\\Store.API.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Store\\Store.API\\obj\\",
+      "outputPath": "D:\\Eslam\\Store\\Store.API\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5024,14 +5024,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\Store\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "D:\\Projects\\Store\\Infrastructure\\Infrastructure.csproj"
+            "D:\\Eslam\\Store\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "D:\\Eslam\\Store\\Infrastructure\\Infrastructure.csproj"
             },
-            "D:\\Projects\\Store\\Persistence\\Persistence.csproj": {
-              "projectPath": "D:\\Projects\\Store\\Persistence\\Persistence.csproj"
+            "D:\\Eslam\\Store\\Persistence\\Persistence.csproj": {
+              "projectPath": "D:\\Eslam\\Store\\Persistence\\Persistence.csproj"
             },
-            "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj": {
-              "projectPath": "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj"
+            "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj": {
+              "projectPath": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj"
             }
           }
         }

@@ -455,11 +455,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj",
+      "projectUniqueName": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj",
       "projectName": "Store.Application",
-      "projectPath": "D:\\Projects\\Store\\Store.Application\\Store.Application.csproj",
+      "projectPath": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj",
       "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-      "outputPath": "D:\\Projects\\Store\\Store.Application\\obj\\",
+      "outputPath": "D:\\Eslam\\Store\\Store.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -476,8 +476,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "D:\\Projects\\Store\\Domain\\Store.Domain.csproj": {
-              "projectPath": "D:\\Projects\\Store\\Domain\\Store.Domain.csproj"
+            "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj": {
+              "projectPath": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj"
             }
           }
         }
