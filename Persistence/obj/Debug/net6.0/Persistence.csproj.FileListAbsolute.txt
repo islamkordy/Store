@@ -1,6 +1,5 @@
 D:\Projects\Store\Persistence\bin\Debug\net6.0\Persistence.deps.json
 D:\Projects\Store\Persistence\bin\Debug\net6.0\Persistence.dll
-D:\Projects\Store\Persistence\bin\Debug\net6.0\ref\Persistence.dll
 D:\Projects\Store\Persistence\bin\Debug\net6.0\Persistence.pdb
 D:\Projects\Store\Persistence\bin\Debug\net6.0\Store.Application.dll
 D:\Projects\Store\Persistence\bin\Debug\net6.0\Store.Domain.dll
@@ -17,3 +16,4 @@ D:\Projects\Store\Persistence\obj\Debug\net6.0\ref\Persistence.dll
 D:\Projects\Store\Persistence\obj\Debug\net6.0\Persistence.pdb
 D:\Projects\Store\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
 D:\Projects\Store\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
+D:\Projects\Store\Persistence\obj\Debug\net6.0\refint\Persistence.dll
