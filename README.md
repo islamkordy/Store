@@ -1,2 +1,0 @@
-# Store
-ECommerce store
