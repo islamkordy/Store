@@ -15,7 +15,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastru
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UI", "UI", "{832195CF-37CF-4B65-A3F7-F4E2D698DCC1}"
 	ProjectSection(SolutionItems) = preProject
+		UI\StoreUI\.browserslistrc = UI\StoreUI\.browserslistrc
+		UI\StoreUI\.editorconfig = UI\StoreUI\.editorconfig
+		UI\StoreUI\.gitignore = UI\StoreUI\.gitignore
+		UI\StoreUI\angular.json = UI\StoreUI\angular.json
+		UI\StoreUI\karma.conf.js = UI\StoreUI\karma.conf.js
+		UI\StoreUI\package-lock.json = UI\StoreUI\package-lock.json
+		UI\StoreUI\package.json = UI\StoreUI\package.json
+		UI\StoreUI\README.md = UI\StoreUI\README.md
 		TextFile1.txt = TextFile1.txt
+		UI\StoreUI\tsconfig.app.json = UI\StoreUI\tsconfig.app.json
+		UI\StoreUI\tsconfig.json = UI\StoreUI\tsconfig.json
+		UI\StoreUI\tsconfig.spec.json = UI\StoreUI\tsconfig.spec.json
 	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Store.Domain", "Domain\Store.Domain.csproj", "{1DD211DC-4A01-4053-B445-9238D8D17FA8}"
