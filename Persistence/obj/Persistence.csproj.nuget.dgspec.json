@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eslam\\Store\\Persistence\\Persistence.csproj": {}
+    "D:\\Eslam\\Projects\\Store\\Store\\Persistence\\Persistence.csproj": {}
   },
   "projects": {
-    "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj": {
+    "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj",
+        "projectUniqueName": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj",
         "projectName": "Store.Domain",
-        "projectPath": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Eslam\\Store\\Domain\\obj\\",
+        "projectPath": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\islam.kordy\\.nuget\\packages\\",
+        "outputPath": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\islam.kordy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,17 +58,17 @@
         }
       }
     },
-    "D:\\Eslam\\Store\\Persistence\\Persistence.csproj": {
+    "D:\\Eslam\\Projects\\Store\\Store\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eslam\\Store\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "D:\\Eslam\\Projects\\Store\\Store\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "D:\\Eslam\\Store\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Eslam\\Store\\Persistence\\obj\\",
+        "projectPath": "D:\\Eslam\\Projects\\Store\\Store\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\islam.kordy\\.nuget\\packages\\",
+        "outputPath": "D:\\Eslam\\Projects\\Store\\Store\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\islam.kordy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -82,8 +82,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj": {
-                "projectPath": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj"
+              "D:\\Eslam\\Projects\\Store\\Store\\Store.Application\\Store.Application.csproj": {
+                "projectPath": "D:\\Eslam\\Projects\\Store\\Store\\Store.Application\\Store.Application.csproj"
               }
             }
           }
@@ -98,6 +98,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNet.Identity.EntityFramework": {
+              "target": "Package",
+              "version": "[2.2.3, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.8, )"
+            },
             "Microsoft.EntityFrameworkCore.Design": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
@@ -132,17 +140,17 @@
         }
       }
     },
-    "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj": {
+    "D:\\Eslam\\Projects\\Store\\Store\\Store.Application\\Store.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj",
+        "projectUniqueName": "D:\\Eslam\\Projects\\Store\\Store\\Store.Application\\Store.Application.csproj",
         "projectName": "Store.Application",
-        "projectPath": "D:\\Eslam\\Store\\Store.Application\\Store.Application.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Eslam\\Store\\Store.Application\\obj\\",
+        "projectPath": "D:\\Eslam\\Projects\\Store\\Store\\Store.Application\\Store.Application.csproj",
+        "packagesPath": "C:\\Users\\islam.kordy\\.nuget\\packages\\",
+        "outputPath": "D:\\Eslam\\Projects\\Store\\Store\\Store.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\islam.kordy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -156,8 +164,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj": {
-                "projectPath": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj"
+              "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj": {
+                "projectPath": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj"
               }
             }
           }
@@ -195,6 +203,14 @@
             "MediatR.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
               "version": "[10.0.1, )"
+            },
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.8, )"
             }
           },
           "imports": [

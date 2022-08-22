@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj": {}
+    "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj": {}
   },
   "projects": {
-    "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj": {
+    "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj",
+        "projectUniqueName": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj",
         "projectName": "Store.Domain",
-        "projectPath": "D:\\Eslam\\Store\\Domain\\Store.Domain.csproj",
-        "packagesPath": "C:\\Users\\lenovo\\.nuget\\packages\\",
-        "outputPath": "D:\\Eslam\\Store\\Domain\\obj\\",
+        "projectPath": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\Store.Domain.csproj",
+        "packagesPath": "C:\\Users\\islam.kordy\\.nuget\\packages\\",
+        "outputPath": "D:\\Eslam\\Projects\\Store\\Store\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\islam.kordy\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
